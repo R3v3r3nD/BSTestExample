@@ -1,0 +1,31 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "USER",
+  "key": "KEY",
+
+  "capabilities": {
+    "name": "Bstack-[TestNG] Parallel Test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "safari": {
+      "os": "OS X",
+      "os_version": "El Capitan",
+      "browser": "safari",
+      "browser_version": "9.1"
+    },
+    "edge": {
+      "browser": "edge"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+}
